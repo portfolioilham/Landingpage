@@ -1,0 +1,401 @@
+/* Navbar */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.Navbar1 {
+    width: 100%;
+    margin-top: 40px;
+
+
+}
+
+.Container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+
+.Container .Logo {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+    font-family: poppins, sans-serif;
+
+}
+
+.Logo {
+    gap: 10px;
+    display: flex;
+}
+
+.Logo img {
+    width: 30px;
+}
+
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.Navbar ul {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+
+
+}
+
+.Navbar ul li {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-size: small;
+}
+
+.Navbar ul li:last-child {
+    margin-left: 148px;
+
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+
+    padding-top: 136px;
+    padding-left: 160px;
+    box-sizing: border-box;
+    display: flex;
+
+
+
+}
+
+.header .Header1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Header1 {
+    width: 90%;
+    display: flex;
+
+}
+
+.Header1 .Tulisan h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    max-width: 450px;
+
+
+}
+
+
+.Tulisan p {
+    margin-top: 20px;
+    max-width: 450px;
+    opacity: 0.5;
+}
+
+
+.Tulisan .button{
+    margin-top: 30px;
+    text-align: center;
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-size: 16;
+    cursor: pointer;
+}
+
+.Tulisan button:hover{
+    background-position: right;
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+}
+
+
+.header .Gambar {
+    width: 100%;
+    margin-right: 100px;
+
+}
+
+.Gambar img {
+    width: 100%;
+
+}
+
+
+.HEADER {
+    width: 100%;
+    height: 100%;
+}
+
+
+.headerbawah {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.headerbawah img {
+    width: 75%;
+}
+
+.luasnya {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.Promosi {
+    margin-top: 130px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+}
+
+.Promosi p {
+    color: rgb(255, 72, 72);
+    font-family: poppins, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.Promosi h3 {
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+.luasnya span {
+    max-width: 330px;
+    opacity: 0.5;
+
+}
+
+
+.Menu {
+    display: flex;
+
+    margin-top: 70px;
+}
+
+.Menu .Menu2 {
+
+    width: 80%;
+    justify-content: center;
+    margin-left: 120px;
+
+}
+
+.MenuLogo {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+
+
+}
+
+.MenuLogo img {
+    width: 60px;
+}
+
+.MenuLogo p {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -60px;
+
+
+}
+
+.tulisankecil {
+    max-width: 800px;
+    display: flex;
+    margin-left: 190px;
+    gap: 118px;
+    font-family: assistant, sans-serif;
+}
+
+
+.MenuLogo2 {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-evenly;
+
+
+}
+
+.MenuLogo {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+
+
+}
+
+.MenuLogo2 img {
+    width: 60px;
+
+}
+
+.MenuLogo2 p {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -60px;
+}
+
+.Bawahhalaman {
+    width: 100%;
+    margin-top: 130px;
+    height: 100vh;
+}
+
+.Bawahhalaman .GMBRBAWAH {
+    width: 80%;
+    display: flex;
+}
+
+.GMBRBAWAH .KONTENT {
+    width: 100%;
+}
+
+.KONTENT .Isikontent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 189px;
+    gap: 70px;
+}
+
+
+
+.KONTENT .Isikontent img {
+    width: 600px;
+    height: 450px;
+}
+
+
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.text .kontenttext p {
+    color: red;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.text .kontenttext h2 {
+    color: rgb(0, 0, 0);
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+.text .kontenttext span {
+    color: rgb(48, 47, 47);
+    opacity: 0.5;
+    font-family: poppins, sans-serif;
+    font-size: 13px;
+   
+}
+
+
+.text .kontenttext p {
+    margin-top: 10px;
+    color: rgb(48, 47, 47);
+    opacity: 0.5;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+
+
+}
+
+.textbutton {
+    display: flex;
+    width: 100%;
+}
+.text2 {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.text2 .kontenttext {
+    display: flex;
+    gap: 10px;
+   
+}
+
+.text2 .kontenttext button {
+    color: white;
+    
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    
+    -webkit-border-radius: 50px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+}
+         
+
+
+  .kontenttext button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
